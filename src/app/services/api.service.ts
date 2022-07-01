@@ -6,7 +6,7 @@ import { Injectable } from '@angular/core';
 })
 export class ApiService {
 
-  URL = "https://herokujson23.herokuapp.com/users/"
+  URL = "https://jsondbapi.herokuapp.com/productList/"
 
   constructor(private http: HttpClient) { }
 
